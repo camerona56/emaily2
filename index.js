@@ -12,5 +12,5 @@ app.get('/', (req, res) => {
   res.send({ hi: 'there' });
 });
 
-// listening on port 5000
+// listening on port 5000 - instructs express to tell node that it wants to listen to Port 5000
 app.listen(5000);
